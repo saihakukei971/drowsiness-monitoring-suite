@@ -1,0 +1,10 @@
+# Slack API設定
+# 実際の値に置き換えてから.envにリネームして使用してください
+SLACK_TOKEN=xoxb-your-token-here
+SLACK_CHANNEL=C12345ABCDE
+
+# アラーム設定
+# 目を閉じたと判定する閾値（低いほど敏感）
+EAR_THRESHOLD=0.25
+# アラームが鳴るまでの秒数
+CLOSED_THRESHOLD_TIME=1.0
